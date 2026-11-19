@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 主弧环 270° -->
+    <path
+        android:pathData="M54,28 A26,26 0 1 1 28,54"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <!-- 缺口段补弧（暗） -->
+    <path
+        android:pathData="M28,54 A26,26 0 0 1 54,28"
+        android:strokeColor="#2A7C8C"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <!-- 内环细弧 130° -->
+    <path
+        android:pathData="M72.7,35.3 A26,26 0 0 1 80,54"
+        android:strokeColor="#66F2FF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+    <!-- 核心点 -->
+    <path
+        android:pathData="M54,54 m-9,0 a9,9 0 1 1 18,0 a9,9 0 1 1 -18,0"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M54,54 m-3.5,0 a3.5,3.5 0 1 1 7,0 a3.5,3.5 0 1 1 -7,0"
+        android:fillColor="#FFFFFF" />
+    <!-- 四向刻度 -->
+    <path
+        android:pathData="M54,15 L54,21 M93,54 L87,54 M54,93 L54,87 M15,54 L21,54"
+        android:strokeColor="#66F2FF"
+        android:strokeWidth="2" />
+</vector>

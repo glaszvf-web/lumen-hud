@@ -1,0 +1,12 @@
+# Build
+build/
+app/build/
+.gradle/
+.kotlin/
+local.properties
+*.iml
+.idea/
+release/
+*.apk
+*.log
+.ai-workspace/
